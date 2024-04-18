@@ -1,0 +1,126 @@
+/*Login*/
+.login-container {
+    background: linear-gradient(to right, #ffecec, #f82b2b);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f82b2b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-link button {
+    color: #f82b2b;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+.register-d {
+    color: white;
+}
+
+.register-d button {
+    color: white;
+    display: none;
+}
+
+/*Home*/
+.page-topbar {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar button {
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f82b2b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.logo img {
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+}
+
+.item-column {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.page-container button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f82b2b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
